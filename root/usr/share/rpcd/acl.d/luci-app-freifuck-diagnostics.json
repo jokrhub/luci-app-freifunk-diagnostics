@@ -1,0 +1,17 @@
+{
+	"luci-mod-freifunk": {
+		"description": "Provdies access to freifunk diagnostics",
+        "ubus": {
+            "file": [
+                "read"
+            ]
+        },
+		"read": {
+			"file" : {
+				"/bin/ping6": ["read"],
+				"/usr/bin/ping6": ["read"],
+				"/usr/bin/traceroute6": ["read"]
+			}
+		}
+	}
+}

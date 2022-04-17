@@ -1,0 +1,10 @@
+{
+    "freifunk/map/overview": {
+        "title": "Diagnostics",
+        "order": 60,
+        "action": {
+            "type": "view",
+            "path": "freifunk/diagnostics"
+        }
+    }
+}
